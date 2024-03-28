@@ -1,38 +1,38 @@
 html {
-    font-size: calc(.7503904216553878rem + .31233732431025507vw)
+    font-size: calc(.7503904216553878rem + .31233732431025507vw);
 }
 
 @media screen and (max-width: 3840px) {
     html {
-        font-size: calc(.7503904216553877rem + .3123373243102551vw)
+        font-size: calc(.7503904216553877rem + .3123373243102551vw);
     }
 }
 
 @media screen and (max-width: 1919px) {
     html {
-        font-size: calc(.37382567849686854rem + .626304801670146vw)
+        font-size: calc(.37382567849686854rem + .626304801670146vw);
     }
 }
 
 @media screen and (max-width: 1440px) {
     html {
-        font-size: calc(.8438475546305931rem + .10405827263267431vw)
+        font-size: calc(.8438475546305931rem + .10405827263267431vw);
     }
 }
 
 @media screen and (max-width: 479px) {
     html {
-        font-size: calc(.7497384937238494rem + .41841004184100417vw)
+        font-size: calc(.7497384937238494rem + .41841004184100417vw);
     }
 }
 
-.w-richtext>:first-child {
+.w-richtext > :first-child {
     margin-top: 0;
 }
 
 .w-richtext ol li:last-child,
 .w-richtext ul li:last-child,
-.w-richtext>:last-child {
+.w-richtext > :last-child {
     margin-bottom: 0;
 }
 
@@ -57,8 +57,8 @@ main:focus-visible {
 .container-large,
 .container-medium,
 .container-small {
-    margin-right: auto!important;
-    margin-left: auto!important;
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
 a {
@@ -119,18 +119,18 @@ section.odometer_06 {
 }
 
 ::-moz-selection {
-    color: auto;
-    background: auto;
+    color: #31312a;
+    background: #e4f222;
 }
 
 ::selection {
-    color: auto;
-    background: auto;
+    color: #31312a;
+    background: #e4f222;
 }
 
 .hljs {
-    background: auto;
-    color: auto;
+    background: #787868;
+    color: #fff;
 }
 
 .hljs-deletion,
@@ -141,7 +141,7 @@ section.odometer_06 {
 .hljs-tag,
 .hljs-template-variable,
 .hljs-variable {
-    color: auto;
+    color: #e4f222;
     font-weight: 600;
 }
 
@@ -153,12 +153,12 @@ section.odometer_06 {
 .hljs-number,
 .hljs-params,
 .hljs-type {
-    color: auto;
+    color: #e4f222;
 }
 
 .hljs-comment,
 .hljs-quote {
-    color: auto;
+    color: rgba(255, 255, 255, .6);
 }
 
 .ctc-button {
@@ -175,11 +175,11 @@ section.odometer_06 {
 }
 
 ::-webkit-scrollbar-track {
-    background: auto;
+    auto;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: auto;
+    auto;
 }
 
 .header p a,
