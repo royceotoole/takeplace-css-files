@@ -165,21 +165,28 @@ section.odometer_06 {
     top: calc(100vh - 6rem);
 }
 
+/* Set scrollbar width and color to default */
 * {
     scrollbar-width: auto;
     scrollbar-color: auto;
 }
 
+/* Set default scrollbar styles */
 ::-webkit-scrollbar {
     width: auto;
+    height: auto;
 }
 
 ::-webkit-scrollbar-track {
-    background: auto;
+    background-color: #f1f1f1; /* Default grey */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: auto;
+    background-color: #888; /* Default grey */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Darker grey on hover */
 }
 
 .header p a,
